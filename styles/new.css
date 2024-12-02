@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+}
+.header{
+    background-image: url('../images/banner/banner1.png');
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+   
+}
+    
+.header-content{
+    width: 900px;
+    height: 100%;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.write{
+text-align: right;
+width: 400px;
+}
+
+.title{
+    font-size: 3rem;
+}
+.title-text{
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin-top: 10px;
+
+}
+.primary{
+    background-color: #F15B22;
+    border-radius: 5px;
+    width: 160px;
+    height: 48px;
+    border: none;
+    margin-top: 10px;
+    color: aliceblue;
+    
+    
+}
+.middle{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.img-section img{
+    height: 500px;
+    width: 100%;
+}
+
+.content{
+    width: 416px;
+}
+.list-content{
+   margin-top: 10px;
+   margin-right: 10px;
+}
+.second-part{
+    margin-top: 50px;
+    margin-bottom: 50px;
+   
+}
+.skill-title{
+   text-align: center;
+}
+.skill{
+    width: 900px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  
+}
+
+.last-part{
+    margin-top: 80px;
+   
+}
+
+.last-body{
+    background-image: url('../images/watch.png');
+    width: 900px;
+    margin: auto;
+    padding: 50px 50px
+}
+.last-title{
+    margin-bottom: 20px;
+    color: white;
+}
+.call{
+    background-color: white;
+    border-radius: 5px;
+    width: 160px;
+    height: 48px;
+    border: none;
+    margin-top: 10px;
+    color:#F15B22;
+}
+.footer-part{
+    display: flex;
+    gap: 100px;
+    background-color:black;
+     margin-top: 100px;
+     padding: 130px 230px;
+}
+.social links a{
+    margin-right: 50px;
+}
+.fotter-text{
+ color: #FFFFFF;
+}
