@@ -66,8 +66,15 @@ width: 400px;
     width: 416px;
 }
 .list-content{
+    list-style: none;
    margin-top: 10px;
    margin-right: 10px;
+}
+.list-content li:before {
+    content: '✔️';
+    color: #4CAF50;
+    margin-right: 10px;
+    font-size: 1.2rem;
 }
 .second-part{
     margin-top: 50px;
@@ -92,10 +99,13 @@ width: 400px;
 }
 
 .last-body{
-    background-image: url('../images/watch.png');
+    background-image: linear-gradient(to right, rgba(255, 87, 34, 0.8), rgba(255, 87, 34, 0.1)), url('../images/watch.png');
+    background-size: cover;
+    background-position: center;
     width: 900px;
     margin: auto;
-    padding: 50px 50px
+    padding: 50px 50px;
+    
 }
 .last-title{
     margin-bottom: 20px;
@@ -117,9 +127,48 @@ width: 400px;
      margin-top: 100px;
      padding: 130px 230px;
 }
-.social links a{
-    margin-right: 50px;
+.social-links a{
+    margin-right: 15px;
+    
+   
 }
 .fotter-text{
  color: #FFFFFF;
+ font-size: 16px;
+ margin-top: 5px;
 }
+.text-section{
+    width: 485px;
+    height: 317px;
+
+}
+.social-links{
+    margin-top:30px;
+}
+.email{
+    margin-top: 30px;
+}
+.contact{
+    height: 204px;
+    width: 325px;
+}
+.last-btn{
+    height: 64px;
+    width: 170px;
+    border-radius: 8px;
+    color:#F15B22 ;
+    background-color:#FFFFFF ;
+    margin-top: 15px;
+}
+.contact input{
+    height: 64px;
+    width: 325px;
+    border-radius: 8px;
+    margin-top:15px ;
+    padding: 0 10px;
+    
+}
+.sub{
+    font-size: 25px;
+}
+   
